@@ -9,22 +9,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  
-        <!-- NYTimes-Search classes:
-
-number-records-input
-start-year-input
-end-year-input
-search-button
-clear-button -->
+ <!-- titile -->
         <div class="row" id="titleRow">
         <div class="col-sm-2"></div>
         <h1 class="col-sm-8"id="title" >New York Times Search </h1>
         <div class="col-sm-2"></div>
         </div>
-        <!-- <div class="row" id="searchParameters"></div>
-        <div class="row" id=""></div> -->
+ <!-- main container      -->
         <div class="container">
         <div class="card" id="search-parameters">
             <div class="card-header" >
@@ -35,6 +26,7 @@ clear-button -->
                   <label for="exampleFormControlInput1">Search Term</label>
                   <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
                 </div>
+ <!-- number-records-input -->
                 <div class="form-group">
                   <label for="exampleFormControlSelect1">Number of Records to Retrieve</label>
                   <select class="form-control" id="exampleFormControlSelect1">
@@ -44,30 +36,33 @@ clear-button -->
                     
                   </select>
                 </div>
+                
+  <!-- start-year-input -->
                 <div class="form-group">
                     <label for="exampleFormControlInput1">Start Year (Optional):</label>
                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
                   </div>
+
+  <!-- end-year-input -->
                   <div class="form-group">
                     <label for="exampleFormControlInput1">End Year (Optional):</label>
                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
                   </div >
+  <!-- search-button -->
                   <div class="row" id="btn-group">
                   <button type="button" class="btn btn-light" id="search">Search</button>
-                  <button type="button" class="btn btn-light" id="result">Result</button>
+  <!-- clear-button -->
+                  <button type="button" class="btn btn-light" id="clear">Clear</button>
                 </div>
               </form>
               
 
           </div>
- <!-- search-term-input -->
- <!-- <div class="container" id="top-articles">
-    <h5>Top Articles</h5>
-  </div> -->
+<!-- top article -->
   <form id="top-articles">
     <div class="form-group">
       <label for="exampleFormControlInput1">Top Article</label>
-      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
     </div>
    
   </form>
