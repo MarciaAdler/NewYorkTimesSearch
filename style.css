@@ -1,0 +1,39 @@
+#titleRow{
+    
+    background-color: blue;
+    height: 8rem;
+}
+#title{
+    padding-top:2rem;
+    text-align: center;
+    color: cornsilk;
+    background-color: blue;
+}
+#search-parameters{
+    margin: 2rem;
+}
+#searchParameters{
+    background-color: darkgrey;
+    margin: 1rem;
+    border-radius: 0.5rem;
+}
+#form-group{
+    margin: 1rem;
+}
+
+#btn-group{
+    margin: 1rem;
+}
+
+#top-articles{
+    margin: 2rem;
+    border: darkgrey;
+}
+#search{
+    margin: 1rem;
+    background-color: darkgrey;
+}
+#result{
+    margin: 1rem;
+    background-color: darkgrey;
+}
